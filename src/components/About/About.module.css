@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Plus+Jakarta+Sans&display=swap');
+
+.containerAbout {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #D5FEB5, #F1FBB4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapperContent {
+  width: 75%;
+  border-radius: 10px;
+  height: 75%;
+  background-image: url(../../assets/img/about-bg.jpg);
+  background-size: cover;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.curtain {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
+.title {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  color: #AAD3B4;
+  font-size: 70px;
+  position: absolute;
+  right: 12%;
+}
+
+.wrapperTitle {
+  position: relative;
+  min-height: 25%;
+}
+
+.test {
+  min-height: 100%;
+  padding: 0px 12%;
+}
+
+.layeredTitle {
+  color: #AAD3B4;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  top: 2px;
+  right: 11.5%;
+}
+
+h5 {
+  font-size: 36px;
+  text-align: justify;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
