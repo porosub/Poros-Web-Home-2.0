@@ -7,11 +7,13 @@ const About = () => {
         <div className={s.wrapperContent}>
           <div className={s.curtain}>
             <div className={s.wrapperTitle}>
-              <h1 className={s.title}>ABOUT US</h1>
-              <h1 className={`${s.title} ${s.layeredTitle}`}>ABOUT US</h1>
+              <div>
+                <h1 className={s.title}>ABOUT US</h1>
+                <h1 className={`${s.title} ${s.layeredTitle}`}>ABOUT US</h1>
+              </div>
             </div>
-            <div className={s.test}>
-              <h5>POROS Organization of Open Source merupakan sebuah lembaga semi otonom yang berfokus di bidang open source yang bertempat di Fakultas Ilmu Komputer Universitas Brawijaya.</h5>
+            <div className={s.wrapperDesc}>
+              <h5 className={s.descPoros}>POROS Organization of Open Source merupakan sebuah lembaga semi otonom yang berfokus di bidang open source yang bertempat di Fakultas Ilmu Komputer Universitas Brawijaya.</h5>
             </div>
           </div>
         </div>

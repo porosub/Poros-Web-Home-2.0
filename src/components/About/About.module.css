@@ -26,6 +26,10 @@
   height: 100%;
   border-radius: 10px;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .title {
@@ -34,29 +38,32 @@
   color: #AAD3B4;
   font-size: 70px;
   position: absolute;
-  right: 12%;
+  top: 40%;
+  right: 0%;
 }
 
 .wrapperTitle {
   position: relative;
   min-height: 25%;
+  width: 75%;
 }
 
-.test {
+.wrapperDesc {
   min-height: 100%;
-  padding: 0px 12%;
+  width: 75%;
 }
 
 .layeredTitle {
   color: #AAD3B4;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px;
-  top: 2px;
-  right: 11.5%;
+  top: 42%;
+  right: -0.5%;
 }
 
-h5 {
+.descPoros {
   font-size: 36px;
   text-align: justify;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 169%;
 }
